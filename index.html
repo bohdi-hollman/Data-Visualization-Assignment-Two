@@ -7,10 +7,10 @@
   <style media="screen">
 
   .vega-actions a {
-    margin-right: 5px;
+    margint: 0 auto;
   }
   .center {
-     margin: auto;
+     margin: 0 auto;
   </style>
 </head>
 <body>
@@ -23,7 +23,7 @@
     acceptance afterwards, and its ecumenical character be universally recognized.</em>"<br>- Henry R. Percival</p>
   <hr>
   <br>
-  <div style="margin: 0 auto;" id="vis"/>
+  <div style="margin: 0 auto;" class="center" id="vis"/>
   <script>
     const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -176,7 +176,7 @@
 <hr>
 <p><b>Figure 1</b> is an interactive map of the Roman Empire adorned with the associated locations of the Early Church Fathers, both before the Council Nicaea (Ante-Nicene) and after (Nicene and Post-Nicene), and the seven ecumenical councils (representing four unique locations). The size of the circle, furthermore, correlates to the number of Church Fathers at that exact location (for example, there are eight Ante-Nicene Fathers in Alexandria, Egypt). This map uses a Mercator projection. Hovering over each location with a cursor yields further information about each point, including
   all the Early Church Fathers associated with that location, the name of the location, the council that the given location is closest to, and the distance (in km) the given location is from its closest council. The interactive legend allows you to click on any of the options (Ante-Nicene, Nicene and Post-Nicene, and Ecumenical Councils) to highlight them indiviually on the map.</p>
-<p><b>Figure 2</b> is a bar chart that displays each of the four locations of the ecumenical councils (Nicaea, Constantinople, Ephesus, and Chalcedon). The bars depict the number of Church Fathers that are closer to the given council than any of the others (for example, St. Augustine of Hippo is one of 40 saints that are closest to Ephesus over Nicaea, Constantinople, or Chalcedon). These bars are layered in such a way
+<p><b>Figure 2</b> is a bar chart that displays each of the four locations of the ecumenical councils (Nicaea, Constantinople, Ephesus, and Chalcedon). The bars depict the number of Church Fathers that are closer to the given council than any of the others (for example, St. Augustine of Hippo is one of 48 saints that are closest to Ephesus over Nicaea, Constantinople, or Chalcedon). These bars are layered in such a way
   that the total count is given, but the colors distinguish between the Ante-Nice and Nicene/Post-Nicene Fathers. The chart is interactive, so hovering the cursor over a section of the bar yields the exact count for each period of the Early Church Fathers</p>
 <p><b>Figure 3</b> is a binned histogram that depicts the distance of the Church Fathers (from their home location) to the nearest council location. The bins increase by increments of 500 km, and the sum of the Church Fathers withing that distance from the nearest council is displayed by the layered bar. Similarly with <b>Figure 2</b>, the graph is interactive; hovering 
   over the sections of the bars with the cursor will yield the exact count of Fathers in that section and the period of Church Fathers that it represents.</p>
