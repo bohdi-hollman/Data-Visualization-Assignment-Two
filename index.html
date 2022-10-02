@@ -10,7 +10,7 @@
     margint: 0 auto;
   }
   .center {
-     margin: 0 auto;
+     width: 100%;
   </style>
 </head>
 <body>
@@ -23,7 +23,7 @@
     acceptance afterwards, and its ecumenical character be universally recognized.</em>"<br>- Henry R. Percival</p>
   <hr>
   <br>
-  <div id="vis"/>
+  <div class="center" id="vis"/>
   <script>
     const spec = {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -31,7 +31,7 @@
   "config": {"mark": {"invalid": null}},
   "vconcat": [
     {
-      "width": 1200,
+      "width": container,
       "height": 800,
       "layer": [
         {
