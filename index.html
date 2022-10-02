@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
+</head>
+<body>
+  <div id="vis"/>
+  <script>
+    const spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "background": "aliceblue",
+  "config": {"mark": {"invalid": null}},
+  "vconcat": [
+    {
+      "width": 800,
+      "height": 600,
+      "layer": [
+        {
+          "title": "Fg. 1: Locations of the Early Church Fathers and the Ecumenical Councils (35 AD - 731 AD)",
+          "data": {
+            "url": "editedworld.geojson",
+            "format": {"property": "features"}
+          },
+          "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+          "projection": {"type": "mercator"}
+        },
+        {
+          "data": {"url": "earlychurchfathers.csv"},
+          "projection": {"type": "mercator"},
+          "transform": [{"filter": {"field": "longitude", "range": [-6, 39]}}],
+          "mark": {
+            "type": "circle",
+            "stroke": "black",
+            "clip": true,
+            "strokeWidth": 0.6,
+            "tooltip": {"content": "data"}
+          },
+          "params": [
+            {
+              "name": "period",
+              "select": {
+                "type": "point",
+                "fields": ["Period of the Early Church"]
+              },
+              "bind": "legend"
+            }
+          ],
+          "encoding": {
+            "longitude": {"field": "longitude", "type": "quantitative"},
+            "latitude": {"field": "latitude", "type": "quantitative"},
+            "tooltip": [
+              {"field": "Early Church Father(s)", "type": "nominal"},
+              {"field": "Location", "type": "nominal"},
+              {"field": "Closest Council", "type": "nominal"},
+              {
+                "field": "Distance to Closest Council (to the nearest km)",
+                "type": "quantitative"
+              }
+            ],
+            "size": {"field": "size", "type": "quantitative", "legend": null},
+            "color": {
+              "field": "Period of the Early Church",
+              "type": "nominal",
+              "scale": {
+                "domain": [
+                  "Ante-Nicene",
+                  "Nicene and Post-Nicene",
+                  "Ecumenical Council"
+                ],
+                "range": ["#da94ff", "#A7C7E7", "#FF6961"]
+              }
+            },
+            "opacity": {
+              "condition": {"param": "period", "value": 1},
+              "value": 0.2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "hconcat": [
+        {
+          "title": "Fg. 2: Councils Closest to the Church Fathers",
+          "data": {"url": "distances.csv"},
+          "width": 400,
+          "mark": {"type": "bar", "clip": true, "tooltip": {"content": "data"}},
+          "encoding": {
+            "x": {
+              "field": "Closest Council",
+              "type": "nominal",
+              "title": "Ecumenical Council Location",
+              "scale": {
+                "domain": ["Nicaea", "Constantinople", "Ephesus", "Chalcedon"]
+              },
+              "axis": {
+                "labelAlign": "center",
+                "labelAngle": 0,
+                "titlePadding": 15
+              }
+            },
+            "y": {
+              "aggregate": "sum",
+              "field": "Fathers",
+              "title": "Number of Church Fathers",
+              "stack": true,
+              "axis": {"titlePadding": 20}
+            },
+            "tooltip": [
+              {"field": "Fathers", "aggregate": "sum", "type": "quantitative"},
+              {"field": "Period of the Early Church", "type": "nominal"}
+            ],
+            "color": {"field": "Period of the Early Church"},
+            "stroke": {"value": "black"},
+            "size": {"value": 100}
+          }
+        },
+        {
+          "title": "Fg. 3: Church Fathers' Distance to Closest Council",
+          "data": {"url": "earlychurchfathers.csv"},
+          "width": 400,
+          "mark": {"type": "bar", "clip": true, "tooltip": {"content": "data"}},
+          "encoding": {
+            "x": {
+              "field": "Distance to Closest Council (to the nearest km)",
+              "type": "quantitative",
+              "bin": true,
+              "title": "Distance to Closest Council (km)",
+              "axis": {
+                "labelAlign": "center",
+                "labelAngle": 0,
+                "titlePadding": 15
+              }
+            },
+            "y": {
+              "axis": {"titlePadding": 20},
+              "aggregate": "sum",
+              "field": "Fathers",
+              "title": "Number of Church Fathers",
+              "stack": true
+            },
+            "tooltip": [
+              {"field": "Fathers", "aggregate": "sum", "type": "quantitative"},
+              {"field": "Period of the Early Church", "type": "nominal"}
+            ],
+            "color": {"field": "Period of the Early Church"},
+            "stroke": {"value": "black"}
+          }
+        }
+      ]
+    }
+  ]
+};
+    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>

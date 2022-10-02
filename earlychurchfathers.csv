@@ -1,0 +1,146 @@
+Early Church Father(s),latitude,longitude,Location,color,size,Fathers,Period of the Early Church,Distance to Nicaea (km),Distance to Constantinople (km),Distance to Ephesus (km),Distance to Chalcedon (km),Closest Council,Distance to Closest Council (to the nearest km)
+"Clement of Rome, Municius Felix, Hippolytus of Rome, Caius, and Novatian",41.902782,12.496366,Rome,#da94ff,5,5,Ante-Nicene,1448,1374,1337,1381,Ephesus,1337
+Polycarp,38.423733,27.142826,Smyrna,#da94ff,1,1,Ante-Nicene,314,328,56,328,Ephesus,56
+"Ignatius, Theophilus, and Lucian",36.204722,36.181667,Antioch,#da94ff,3,3,Ante-Nicene,733,822,807,815,Nicaea,733
+"Epistle of Barnabas, Pantaenus, Clement of Alexandria, Origen, Dionysius the Great, Theognostus, Pierius, and Theonas",31.2000924,29.9187387,Alexandria,#da94ff,8,8,Ante-Nicene,1026,1094,785,1090,Ephesus,785
+Papias,37.91644,29.11729,Hierapolis,#da94ff,1,1,Ante-Nicene,284,345,156,341,Ephesus,156
+Justin Martyr,32.2227,35.2621,Flavia Neopolis,#da94ff,1,1,Ante-Nicene,1037,1126,960,1119,Ephesus,960
+Irenaeus and Blandina,45.76342,4.834277,Lyon,#da94ff,1,1,Ante-Nicene,2095,2011,2046,2019,Constantinople,2011
+Hermas,40.7928,17.1012,Apuileia,#da94ff,1,1,Ante-Nicene,1064,997,934,1004,Ephesus,934
+Tatian,36,44,Adiabene,#da94ff,1,1,Ante-Nicene,1338,1418,1492,1410,Nicaea,1338
+Athenagoras and Aristides,37.9758,23.7232,Athens,#da94ff,2,2,Ante-Nicene,584,563,317,566,Ephesus,317
+"Perpetua, Tertullian, and Cyprian of Carthage",36.85182993,10.32049872,Carthage,#da94ff,3,3,Ante-Nicene,1726,1674,1505,1680,Ephesus,1505
+Gregory Thaumaturgus,40.583331,36.9499962,Neocaesarea,#da94ff,1,1,Ante-Nicene,611,672,877,665,Nicaea,611
+Julius Africanus,31.8393,34.989458,Emmaus,#da94ff,1,1,Ante-Nicene,1065,1152,972,1145,Ephesus,972
+Anatolius and Apollinarius,35.53168,35.79011,Laodicea,#da94ff,2,2,Ante-Nicene,760,850,798,843,Nicaea,760
+Alexander of Cappadocia and Asterius,38.66899732,34.83682999,Cappadocia,#da94ff,2,2,Ante-Nicene,480,563,658,556,Nicaea,480
+Phileas,30.93649625,31.50983129,Thmuis,#da94ff,1,1,Ante-Nicene,1067,1143,867,1138,Ephesus,867
+Pamphilus and Eusebius of Caesaria,32.499998,34.89316309,Caesarea Martima,#da94ff,2,2,Ante-Nicene,994,1082,913,1076,Ephesus,913
+Methodius,37.63616412,21.6249975,Olympus,#da94ff,1,1,Ante-Nicene,764,735,503,739,Ephesus,503
+Arnobius,36.17424,8.70486,Sicca Veneria,#da94ff,1,1,Ante-Nicene,1888,1836,1661,1842,Ephesus,1661
+Lactantius,40.7666636,29.916663,Nicomedia,#da94ff,1,1,Ante-Nicene,41,83,384,76,Nicaea,41
+Venatius,43.13866,13.06785,Camerino,#da94ff,1,1,Ante-Nicene,1410,1331,1334,1339,Constantinople,1331
+Victorinus,46.42005,15.87018,Poetovio,#da94ff,1,1,Ante-Nicene,1298,1210,1332,1217,Constantinople,1210
+Pseudo-Dionysius,37.96999612,23.72083045,Aeropagus,#da94ff,1,1,Ante-Nicene,584,564,317,567,Ephesus,317
+Augustine of Hippo,36.8999964,7.7666636,Hippo Regius,#A7C7E7,1,1,Nicene and Post-Nicene,1939,1884,1728,1890,Ephesus,1728
+"John Chrysostom, Socrates Scholasticus, Sozomenus, Gennadius, Theodotus of Byzantium, Nestorius, and Maximus the Confessor",41.015137,28.97953,Constantinople,#A7C7E7,7,7,Nicene and Post-Nicene,90,0,369,8,Constantinople,0
+Theodoret,36.744167,36.959167,Cyrrhus,#A7C7E7,1,1,Nicene and Post-Nicene,750,837,860,830,Nicaea,750
+Jerome,45.4668,16.7699,Stridon,#A7C7E7,1,1,Nicene and Post-Nicene,1191,1104,1210,1111,Constantinople,1104
+Rufinus,45.76118,12.82362,Julia Concordia,#A7C7E7,1,1,Nicene and Post-Nicene,1490,1404,1479,1412,Constantinople,1404
+Gregory of Nyssa,38.954295,33.959229,Nyssa,#A7C7E7,1,1,Nicene and Post-Nicene,398,482,587,474,Nicaea,398
+Cyril of Jerusalem,31.771959,35.217018,Jerusalem,#A7C7E7,1,1,Nicene and Post-Nicene,1081,1168,992,1162,Ephesus,992
+Gregory Nazianzen,38.366667,34.033333,Nazianzus,#A7C7E7,1,1,Nicene and Post-Nicene,435,523,586,515,Nicaea,435
+Basil the Great,38.7205,35.4826,Caesarea Mazaca,#A7C7E7,1,1,Nicene and Post-Nicene,529,610,715,603,Nicaea,529
+Hilary of Poitiers,46.5802,0.3404,Poitiers,#A7C7E7,1,1,Nicene and Post-Nicene,2449,2364,2404,2372,Constantinople,2364
+John of Damascus,33.510414,36.278336,Damascus,#A7C7E7,1,1,Nicene and Post-Nicene,964,1054,944,1047,Ephesus,944
+Ambrose,45.464664,9.18854,Milan,#A7C7E7,1,1,Nicene and Post-Nicene,1756,1672,1717,1679,Constantinople,1672
+Sulpitius Severus,44.7002,0.2996,Aquitania,#A7C7E7,1,1,Nicene and Post-Nicene,2440,2359,2366,2367,Constantinople,2359
+Vincent of Lerins,43.5065,7.0473,Lerins,#A7C7E7,1,1,Nicene and Post-Nicene,1898,1819,1812,1827,Ephesus,1812
+John Cassian,43.296398,5.37,Massilia,#A7C7E7,1,1,Nicene and Post-Nicene,2033,1955,1940,1962,Ephesus,1940
+Ephraim Syrus,37.1674,38.7955,Edessa,#A7C7E7,1,1,Nicene and Post-Nicene,865,948,1012,940,Nicaea,865
+First and Second Councils of Nicaea,40.42861,29.72111,Nicaea,#FF6961,1,1,Ecumenical Council,,,,,,
+"First, Second, and Third Councils of Constantinople",41.015137,28.97953,Constantinople,#FF6961,1,1,Ecumenical Council,,,,,,
+First Council of Ephesus,37.941113,27.341944,Ephesus,#FF6961,1,1,Ecumenical Council,,,,,,
+Council of Chalcedon,40.9819,29.0576,Chalcedon,#FF6961,1,1,Ecumenical Council,,,,,,
+"Leo the Great, Gregory the Great, and Gregory the Great II",41.902782,12.496366,Rome,#A7C7E7,3,3,Nicene and Post-Nicene,1448,1374,1337,1381,Ephesus,1337
+"Athanasius, Arius, and Cyril of Alexandria",31.2000924,29.9187387,Alexandria,#A7C7E7,3,3,Nicene and Post-Nicene,1026,1094,785,1090,Ephesus,785
+Epiphanius of Salamis,37.9333296,23.499998,Salamis,#A7C7E7,1,1,Nicene and Post-Nicene,326,314,182,316,Ephesus,182
+Donatus,36.607058,2.1918495,Numidia,#A7C7E7,1,1,Nicene and Post-Nicene,1307,1275,1200,1278,Ephesus,1200
+Nicholas of Myra,36.2583323,29.96966279,Myra,#A7C7E7,1,1,Nicene and Post-Nicene,250,289,161,287,Ephesus,161
+Eusebius of Vercelli,45.32163,8.41989,Vercelli,#da94ff,1,1,Ante-Nicene,978,933,954,937,Constantinople,933
+Marcion of Sinope,42.025776,35.143037,Sinope,#da94ff,1,1,Ante-Nicene,263,283,434,280,Nicaea,263
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
